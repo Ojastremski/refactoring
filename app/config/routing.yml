@@ -1,0 +1,3 @@
+example_one:
+    resource: "@ExampleOneBundle/Resources/config/routing.yml"
+    prefix:   /

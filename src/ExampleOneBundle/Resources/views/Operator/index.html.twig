@@ -1,0 +1,15 @@
+
+{% if oldTotal < newTotal %}
+    Operator changed cart total :)<br />
+
+    Old price:
+    {{ oldTotal }} zł<br />
+
+    New price!
+    {{ newTotal }} zł<br />
+
+{% else %}
+
+    Price is: {{ newTotal }} zł
+
+{% endif %}
