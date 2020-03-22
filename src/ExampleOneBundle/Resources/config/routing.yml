@@ -1,0 +1,3 @@
+example_one_operator:
+    path:     /
+    defaults: { _controller: ExampleOneBundle:Operator:index }
